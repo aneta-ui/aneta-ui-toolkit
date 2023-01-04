@@ -1,0 +1,41 @@
+{
+  "name": "@aneta-ui/builder",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Potato <toicodedoec@gmail.com>",
+  "license": "ISC",
+  "main": "lib/builder.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneta-ui/aneta-ui-toolkit.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@aneta-ui/builder.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/aneta-ui/aneta-ui-toolkit/issues"
+  },
+  "homepage": "https://github.com/aneta-ui/aneta-ui-toolkit#readme",
+  "bin": {
+    "aneta-ui-builder": "./lib/builder.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.9.1"
+  }
+}
