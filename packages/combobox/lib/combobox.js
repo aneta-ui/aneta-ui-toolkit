@@ -1,7 +1,2 @@
-'use strict';
-
-module.exports = combobox;
-
-function combobox() {
-    return "Hello from combobox";
-}
+const ComboBox = () => <div>ComboBox</div>;
+export default ComboBox;
